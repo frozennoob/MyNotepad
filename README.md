@@ -1,7 +1,7 @@
 # MyNotepad
 
 08.07.2018 <br>
-Теперь программа использует NHibernate и PostgreSQL.<br>
+Теперь программа использует NHibernate и PostgreSQL.
 С .net core 2.1 пока разбираюсь.<br>
 Скрипт для создания БД:
 <pre>
