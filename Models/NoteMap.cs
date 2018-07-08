@@ -2,8 +2,10 @@
 
 namespace MyNotepad
 {
+    // FluentHibernate маппинг-класс для Note
     public class NoteMap : ClassMap<Note>
     {
+        // Создаем связи между полями класса и БД
         public NoteMap()
         {
             Id(x => x.id);

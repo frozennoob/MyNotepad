@@ -7,6 +7,7 @@ namespace MyNotepad
     //Класс экземпляры которого реализуют наши записи  
     public class Note : IComparable<Note>  //Будем  сортировать его в списке по ToString, который переопределен ниже
     {
+        //Открываем поля, так как этого требует NHibernate
         public virtual int id { get; set; }
         public virtual string lastName { get; set; }
         public virtual string firstName { get; set; }
@@ -15,6 +16,7 @@ namespace MyNotepad
         public virtual string email { get; set; }
         public virtual DateTime birthDate { get; set; }
 
+        // Конструктор по умолчанию для совместимости с NHibernate
         public Note()
         { }
 
