@@ -1,7 +1,7 @@
 # MyNotepad
 
 08.07.2018 <br>
-Добавлена поддержка NHibernate и PostgreSQL<br>
+Версия с использованием NHibernate и PostgreSQL<br>
 Скрипт для создания БД:
 <pre>
 CREATE TABLE notes (
