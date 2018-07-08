@@ -2,7 +2,7 @@
 
 08.07.2018 <br>
 Теперь программа использует NHibernate и PostgreSQL<br>
-.net core 2.1 пока разбираюсь.<br>
+С .net core 2.1 пока разбираюсь.<br>
 Скрипт для создания БД:
 <pre>
 CREATE TABLE notes (
