@@ -6,12 +6,12 @@
 <pre>
 CREATE TABLE notes (
 	id SERIAL,
-	lastName  	  VARCHAR (50) NOT NULL,
-	firstName  	  VARCHAR (50) NULL,
+	lastName  	VARCHAR (50) NOT NULL,
+	firstName  	VARCHAR (50) NULL,
 	fathersName 	VARCHAR (50) NULL,
 	phoneNumber 	VARCHAR (30) NULL,
 	email       	VARCHAR (50) NULL,
-	birthDate  	  DATE         NULL
+	birthDate  	DATE         NULL
 );
 </pre>	
 #
